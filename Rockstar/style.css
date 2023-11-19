@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(20, 20, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title-bar {
+    height: 50px;
+    display: flex;
+    border: 2px solid rgb(40, 40, 40);
+    justify-content: space-between;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.950);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.title-bar img {
+    height: 70%;
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.title-bar img:hover{
+    cursor: pointer;
+}
+.gta-online {
+    background-color: black;
+    display: flex;
+    justify-content: left;
+    padding-top: 50px;
+    
+}
+.gta-online-right {
+    color: white;
+}
+#gta-text1 {
+    font-size: 90%;
+    padding-top: 80px;
+    cursor: pointer;
+}
+#gta-text2 {
+    font-size: 250%;
+    cursor: pointer;
+}
+.button {
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 130%;
+}
+.button:hover {
+    background-color: rgb(230, 157, 10);
+    border: rgb(230, 157, 10);
+    color: black;
+    cursor: pointer;
+}
+.newswire {
+    padding: 70px;
+}
+#newswire-title {
+    color: white;
+    font-size: 200%;
+    cursor: pointer;
+}
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.news {
+    width: 32%;
+    height: 700px;
+    border: 1px solid rgb(40, 40, 40);
+    background-color: black;
+    border-radius: 10px;
+}
+.news-image img {
+    width: 100%;
+}
+.news-subtitles{
+    display: flex;
+    justify-content: left;;
+}
+.news-subject {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.news-date {
+    color: rgb(150, 150, 150);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.news-title {
+    color: white;
+    padding: 30px;
+    padding-top: 10px;
+    font-size: 150%;
+    cursor: pointer;
+}
+.newswire-view-more-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#view-more {
+    color: white;
+    font-size: 150%;
+    text-decoration: underline 3px rgb(230, 157, 10);
+    padding: 5px;
+    border-radius: 5px;
+}
+#view-more:hover {
+    background-color: rgb(230, 157, 10);
+    color: black;
+    cursor: pointer;
+}
+.games-container {
+    padding: 70px;
+   
+}
+.games {
+    display: flex;
+    justify-content: space-between;
+}
+.games-title {
+    font-size: 200%;
+    color: white;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+.game {
+    width: 22%;
+    border: 10px solid black;
+    border-radius: 10px;
+}
+.game img {
+    width: 100%;
+    height: 100%;
+}
